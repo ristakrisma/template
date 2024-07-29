@@ -7,7 +7,7 @@
 /* line 1, src/assets/scss/_root.scss */
 :root {
   --bs-blue: #0d6efd;
-  --bs-indigo: #6610f2;
+  --bs-indigo: #000000;
   --bs-purple: #4232c2;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
@@ -54,7 +54,7 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #000000;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
@@ -245,13 +245,13 @@ sup {
 
 /* line 261, src/assets/scss/_reboot.scss */
 a {
-  color: #4232c2;
+  color: #080808;
   text-decoration: underline;
 }
 
 /* line 265, src/assets/scss/_reboot.scss */
 a:hover {
-  color: #35289b;
+  color: #0a0a0b;
 }
 
 /* line 277, src/assets/scss/_reboot.scss */
@@ -336,7 +336,7 @@ table {
 caption {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: #6c757d;
+  color: #000000;
   text-align: left;
 }
 
@@ -3131,7 +3131,7 @@ textarea.form-control-lg {
 
 /* line 20, src/assets/scss/forms/_form-range.scss */
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(66, 50, 194, 0.25);
+  box-shadow: 0 0 0 1px #0b0b0b, 0 0 0 0.25rem rgba(66, 50, 194, 0.25);
 }
 
 /* line 23, src/assets/scss/forms/_form-range.scss */
@@ -3144,7 +3144,7 @@ textarea.form-control-lg {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #4232c2;
+  background-color: #060606;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
@@ -3165,7 +3165,7 @@ textarea.form-control-lg {
 
 /* line 38, src/assets/scss/forms/_form-range.scss */
 .form-range::-webkit-slider-thumb:active {
-  background-color: #c6c2ed;
+  background-color: #070707;
 }
 
 /* line 43, src/assets/scss/forms/_form-range.scss */
@@ -3183,7 +3183,7 @@ textarea.form-control-lg {
 .form-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #4232c2;
+  background-color: #000000;
   border: 0;
   border-radius: 1rem;
   -moz-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -9505,7 +9505,7 @@ fieldset:disabled .btn {
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
 .text-secondary {
-  color: #6266ea !important;
+  color: #000000 !important;
 }
 
 /* line 50, src/assets/scss/mixins/_utilities.scss */
