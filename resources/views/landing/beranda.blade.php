@@ -17,61 +17,13 @@
     <link rel="stylesheet" href="{{asset ('assets/css/custom.css')}}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
 
-    
-    
 
-<!--
-    
-TemplateMo 561 Purple Buzz
-
-https://templatemo.com/tm-561-purple-buzz-->
 </head>
+@extends('landing.master')
 
-<body>
     <!-- Header -->
-<nav id="main_nav" class="navbar navbar-expand-lg navbar-light bg-white shadow">
-    <div class="container d-flex justify-content-between align-items-center">
-        <a class="navbar-brand h1" href="index.html">
-            <i class='bx bx-buildings bx-sm text-dark'></i>
-            <span class="text-dark h4">DKM</span>
-        </a>
-        <!-- Add a wrapper for the nav links to manage alignment -->
-        <div class="ml-auto">
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler-success" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="align-self-center collapse navbar-collapse flex-fill d-lg-flex justify-content-lg-between" id="navbar-toggler-success">
-                <div class="flex-fill mx-xl-5 mb-2">
-                    <ul class="nav navbar-nav d-flex justify-content-between mx-xl-5 text-center text-dark">
-                        <!-- Navigation items -->
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="index.html">BERANDA</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="about.html">PRODUK</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="work.html">TABUNGAN</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="pricing.html">TENTANG KAMI</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="kontak.html">KONTAK</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link btn-outline-primary rounded-pill px-3" href="profile.html">PROFILE</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </div>
-</nav>
-        
-    <!-- Close Header -->
-
-
+    @include('tools.nav')
+<body>
     <!-- Start Banner Hero -->
     <div class="banner-wrapper bg-light">
         <div id="index_banner" class="banner-vertical-center-index container-fluid pt-5">
@@ -93,7 +45,7 @@ https://templatemo.com/tm-561-purple-buzz-->
                                   <br>your business
                               </h1>
                                 <p class="banner-body text-muted py-3 mx-0 px-0">
-                                    Purple Buzz is a corporate HTML template with Bootstrap 5 Beta 1. This CSS template is 100% free to download provided by <a rel="nofollow" href="https://templatemo.com/page/1" target="_parent">TemplateMo</a>. Total 6 HTML pages included in this template. Icon fonts by <a rel="nofollow" href="https://boxicons.com/" target="_blank">Boxicons</a>. Photos are from <a rel="nofollow" href="https://unsplash.com/" target="_blank">Unsplash</a> and <a rel="nofollow" href="https://icons8.com/" target="_blank">Icons 8</a>.
+                                    Purple Buzz is a corporate HTML template with Bootstrap 5 Beta 1. This CSS template is 100% free to download provided by TemplateMo</a>. Total 6 HTML pages included in this template. Icon fonts by Boxicons</a>. Photos are from </a> and Icons 8</a>.
                               </p>
                                 <a class="banner-button btn rounded-pill btn-outline-primary btn-lg px-4" href="#" role="button">Get Started</a>
                             </div>
@@ -174,7 +126,7 @@ https://templatemo.com/tm-561-purple-buzz-->
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="{{ asset('landing/assets/img/recent-work-01.jpg')}}" alt="Card image">
+                    <img class="recent-work-img" src="{{ asset('landing/assets/img/boer kambing.jpeg') }}" alt="Card image" style="width: 100%; height: 350px; object-fit: cover;">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Social Media</h3>
@@ -187,7 +139,7 @@ https://templatemo.com/tm-561-purple-buzz-->
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="{{ asset('landing/assets/img/recent-work-02.jpg')}}" alt="Card image">
+                    <img class="recent-work-img" src="{{ asset('landing/assets/img/sapi.jpeg') }}" alt="Card image" style="width: 100%; height: 350px; object-fit: cover;">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">Web Marketing</h3>
@@ -200,7 +152,7 @@ https://templatemo.com/tm-561-purple-buzz-->
                 <!-- Start Recent Work -->
                 <div class="col-md-4 mb-3">
                     <a href="#" class="recent-work card border-0 shadow-lg overflow-hidden">
-                        <img class="recent-work-img card-img" src="{{ asset('landing/assets/img/recent-work-03.jpg')}}" alt="Card image">
+                    <img class="recent-work-img" src="{{ asset('landing/assets/img/kambing.jpeg') }}" alt="Card image" style="width: 100%; height: 350px; object-fit: cover;">
                         <div class="recent-work-vertical card-img-overlay d-flex align-items-end">
                             <div class="recent-work-content text-start mb-3 ml-3 text-dark">
                                 <h3 class="card-title light-300">R & D</h3>
@@ -260,31 +212,6 @@ https://templatemo.com/tm-561-purple-buzz-->
     <script src="{{ asset('landing/assets/js/jquery.min.js')}}"></script>
     <!-- Isotope -->
     <script src="{{ asset('landing/assets/js/isotope.pkgd.js')}}"></script>
-    <!-- Page Script -->
-    <!--<script>
-        $(window).load(function() {
-            // init Isotope
-            var $projects = $('.projects').isotope({
-                itemSelector: '.project',
-                layoutMode: 'fitRows'
-            });
-            $(".filter-btn").click(function() {
-                var data_filter = $(this).attr("data-filter");
-                $projects.isotope({
-                    filter: data_filter
-                });
-                $(".filter-btn").removeClass("active");
-                $(".filter-btn").removeClass("shadow");
-                $(this).addClass("active");
-                $(this).addClass("shadow");
-                return false;
-            });
-        });
-    </script> -->
-    <!-- Templatemo -->
-    <script src="{{ asset('landing/assets/js/templatemo.js')}}"></script>
-    <!-- Custom -->
-    <script src="{{ asset('landing/assets/js/custom.js')}}"></script>
-
+   
 </body>
 </html>
